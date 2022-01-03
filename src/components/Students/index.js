@@ -4,7 +4,7 @@ import { useStudentsContext } from '../../context';
 import './Students.css';
 
 const Students = () => {
-  const { studentsData, setStudentsData } = useStudentsContext();
+  const { studentsData } = useStudentsContext();
 
   return (
     <div className='students-page-container'>
